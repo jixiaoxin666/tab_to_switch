@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.notice {
+  width: 498px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 100px auto;
+  overflow: hidden;
+}
+.notice .notice-tit {
+  height: 50px;
+  position: relative;
+}
+.notice .notice-tit ul{
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  left: -1px;
+}
+.notice .notice-tit ul li{
+  float: left;
+  width: 98px;
+  padding: 0 1px;
+  line-height:  50px;
+  text-align: center;
+  background-color: #eee;
+}
+.notice .notice-tit ul li.active{
+  background-color: #fff;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.notice ul li a:link, .notice-tit ul li a:visited {
+  color: #000;
+  text-decoration: none;
+}
+.notice ul li a:hover, .notice-tit ul li a:active {
+  color: red;
+  text-decoration: none;
+}
+.notice-con {
+  overflow: hidden;
+}
+.notice .mod{
+
+}
+.notice-con ul li {
+  float: left;
+  width: 249px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  overflow:hidden;
+}
+.notice-con ul li a {
+  display: block;
+  color: #000;
+}
